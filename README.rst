@@ -18,8 +18,8 @@
 .. |PyPi| image:: https://badge.fury.io/py/scikit-ctr.svg
 .. _PyPi: https://badge.fury.io/py/scikit-ctr
 
-.. |DOI| image:: https://zenodo.org/badge/21369/scikit-ctr/scikit-ctr.svg
-.. _DOI: https://zenodo.org/badge/latestdoi/21369/scikit-ctr/scikit-ctr
+.. |DOI| image:: https://zenodo.org/badge/21369/classtag/scikit-ctr.svg
+.. _DOI: https://zenodo.org/badge/latestdoi/21369/classtag/scikit-ctr
 
 scikit-CTR
 ============
