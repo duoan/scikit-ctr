@@ -39,7 +39,7 @@ def configuration(parent_package='', top_path=None):
     return config
 
 
-with open('requirements.txt') as fid:
+with open('requirements/default.txt') as fid:
     INSTALL_REQUIRES = [l.strip() for l in fid.readlines() if l]
 
 # requirements for those browsing PyPI
@@ -106,7 +106,6 @@ if __name__ == '__main__':
             ],
         },
         install_requires=INSTALL_REQUIRES,
-        requires=REQUIRES,
         python_requires='>3.6',
         packages=setuptools.find_packages(exclude=["tests"]),
         include_package_data=True,

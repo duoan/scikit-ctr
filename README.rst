@@ -24,12 +24,14 @@
 .. |DOI| image:: https://zenodo.org/badge/21369/classtag/scikit-ctr.svg
 .. _DOI: https://zenodo.org/badge/latestdoi/21369/classtag/scikit-ctr
 
-scikit-CTR
+scikit-ctr
 ============
 
+.. image:: https://badges.gitter.im/scikit-ctr/Lobby.svg
+   :alt: Join the chat at https://gitter.im/scikit-ctr/Lobby
+   :target: https://gitter.im/scikit-ctr/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
-
-Python Boilerplate contains all the boilerplate you need to create a Python package.
+A scikit extends for Click-Through-Rate prediction.
 
 
 * Free software: MIT license
@@ -50,6 +52,3 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
 
 
-.. image:: https://badges.gitter.im/scikit-ctr/Lobby.svg
-   :alt: Join the chat at https://gitter.im/scikit-ctr/Lobby
-   :target: https://gitter.im/scikit-ctr/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
