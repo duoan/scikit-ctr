@@ -36,7 +36,7 @@ artifacts:
 on_success:
   # Upload the generated wheel package to Rackspace
   - pip install wheelhouse-uploader
-  - python -m wheelhouse_uploader upload --no-ssl-check --local-folder=dist scikit_ctr-wheels
+  - python -m wheelhouse_uploader upload --no-update-index --no-ssl-check --local-folder=dist wheels
 
 notifications:
   - provider: Webhook
