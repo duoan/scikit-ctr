@@ -40,7 +40,7 @@ def configuration(parent_package='', top_path=None):
 
 
 INSTALL_REQUIRES = [
-    "scikit-learn>=20.0",
+    "scikit-learn>=0.20.0",
     "Click>=6.0"
 ]
 
