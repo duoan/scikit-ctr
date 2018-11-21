@@ -25,7 +25,6 @@ build: false  # Not a C# project, build stuff at the test step instead.
 
 test_script:
   - "%PYTHON%/Scripts/tox -e %TOX_ENV%"
-  - py.test tests/test.py --cov=codecov
 
 after_test:
   - "%PYTHON%/python setup.py bdist_wheel"

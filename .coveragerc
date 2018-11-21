@@ -1,2 +1,16 @@
 [run]
-source=skctr
+branch = True
+source = skctr
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    if .debug:
+    raise NotImplementedError
+    if __name__ == .__main__.:
+ignore_errors = True
+omit =
+    venv/*
+    tests/*
+    setup.py
