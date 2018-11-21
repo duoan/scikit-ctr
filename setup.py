@@ -39,8 +39,10 @@ def configuration(parent_package='', top_path=None):
     return config
 
 
-with open('requirements/default.txt') as fid:
-    INSTALL_REQUIRES = [l.strip() for l in fid.readlines() if l]
+INSTALL_REQUIRES = [
+    "scikit-learn>=20.0",
+    "Click>=6.0"
+]
 
 # requirements for those browsing PyPI
 REQUIRES = [r.replace('>=', ' (>= ') + ')' for r in INSTALL_REQUIRES]
