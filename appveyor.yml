@@ -27,7 +27,7 @@ test_script:
   - "%PYTHON%/Scripts/tox -e %TOX_ENV%"
 
 after_test:
-  - "%PYTHON%/python setup.py --command-packages wheel bdist_wheel"
+  - "%PYTHON%/python setup.py bdist_wheel"
   - ps: "ls dist"
 
 artifacts:
@@ -35,7 +35,8 @@ artifacts:
 
 on_success:
   # Upload the generated wheel package to Rackspace
-  - "python -m scikit-ctr upload --local-folder=dist sklearn-windows-wheels"
+  - pip install wheelhouse-uploader
+  - python -m wheelhouse_uploader upload --no-ssl-check --local-folder=dist scikit_ctr-wheels
 
 notifications:
   - provider: Webhook
