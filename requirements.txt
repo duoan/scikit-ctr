@@ -1,0 +1,2 @@
+scikit_learn==0.20.0
+Click>=6.0

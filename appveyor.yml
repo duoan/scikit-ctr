@@ -19,8 +19,6 @@ init:
 
 install:
   - "%PYTHON%/Scripts/easy_install -U pip"
-  - "%PYTHON%/Scripts/pip install tox"
-  - "%PYTHON%/Scripts/pip install wheel"
   - "%PYTHON%/Scripts/pip install -r requirements_dev.txt"
 
 build: false  # Not a C# project, build stuff at the test step instead.
@@ -37,7 +35,7 @@ artifacts:
 
 on_success:
   # Upload the generated wheel package to Rackspace
-  - "python -m wheelhouse_uploader upload --local-folder=dist sklearn-windows-wheels"
+  - "python -m scikit-ctr upload --local-folder=dist sklearn-windows-wheels"
 
 notifications:
   - provider: Webhook

@@ -1,25 +1,14 @@
-# Config file for automatic testing at travis-ci.org
-
 language: python
 python:
-  - 3.6
-
-# Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
+- 3.6
 install: pip install -U tox-travis
-
-# Command to run tests, e.g. python setup.py test
 script: tox
-
-# Assuming you have installed the travis-ci CLI tool, after you
-# create the Github repo and add it to Travis, run the
-# following command to finish PyPI deployment setup:
-# $ travis encrypt --add deploy.password
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
   user: classtag
   password:
-    secure: PLEASE_REPLACE_ME
+    secure: N7UReVRVt5UcCWpDD0ldni6ob26ywGZpBUrVF+aRlFrNzc+yGwxAlIWewhdY6la8iJV76OlJ9Ff3DnI6CPUSrTc5YCgrc9Pav/fmp2oTAjPf0YPZGoMuTMBf3/UN7PjOl/u9AIhx0JcCPJ91gpAG2eNQ5msLl4GnPf6irVODcxLBqg2fWnSASH/xcpO7weutj6n8D2yzpIGOSicnF2NtzisNhnKMTFXs490mcYUUYN47pUkzytlLxTF6g0/5YRjper7GME2fFxqBI/1IhHKgh/il74852NYpJfkWdTbZ1HkxhVVQ0LlxKY70I2T16BmftF0+FV6T56ew9JshgGP90IrgAJhRyAkQ7YJbfbBwcwKc8s1tmaX4c8Ag/McIuwfXgTAiPB31JqxGxeTGVhBUL4ADI/1ISclitK9eE3cyM/hGCCApNRoCVpQFHiGK1+I0sNruqjWVNsbFQBs+MIvc6oD5nXjZmzGnEKiD4hjVyE2ynyd9rQkAYbZ9BDWusqHePbMzDg5G8pfJsokXqEo1rDMp8QFkxtIIWgrj0z05RNxDVjxJjOmh3SwNhwc+sy7PT/YvSplgVl40eLkR4jdth1v2jvtaG+4r0rvOTSLFVpfk18Rr2M35QHtsmJUGbiltfEcUly0bNG8BbE+UEE1lkYeoNNRxt3emH/VzGpQS0GQ=
   on:
     tags: true
     repo: classtag/scikit-ctr
