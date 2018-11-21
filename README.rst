@@ -19,7 +19,7 @@
 .. _PyPi: https://badge.fury.io/py/scikit-ctr
 
 .. |PyUp| image:: https://pyup.io/repos/github/classtag/scikit-ctr/shield.svg
-.. _PyUp   https://pyup.io/repos/github/classtag/scikit-ctr/
+.. _PyUp: https://pyup.io/repos/github/classtag/scikit-ctr/
 
 .. |DOI| image:: https://zenodo.org/badge/21369/classtag/scikit-ctr.svg
 .. _DOI: https://zenodo.org/badge/latestdoi/21369/classtag/scikit-ctr
