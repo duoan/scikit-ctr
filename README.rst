@@ -9,7 +9,7 @@
 .. |Codecov| image:: https://codecov.io/github/classtag/scikit-ctr/badge.svg?branch=master&service=github
 .. _Codecov: https://codecov.io/github/classtag/scikit-ctr?branch=master
 
-.. |CircleCI| image:: https://circleci.com/gh/classtag/scikit-ctr/tree/master.svg?style=shield&circle-token=:circle-token
+.. |CircleCI| image:: https://circleci.com/gh/classtag/scikit-ctr/tree/master.svg?style=svg&circle-token=:circle-token
 .. _CircleCI: https://circleci.com/gh/classtag/scikit-ctr
 
 .. |Python36| image:: https://img.shields.io/badge/python-3.6-blue.svg
