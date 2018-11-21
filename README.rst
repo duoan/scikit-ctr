@@ -1,4 +1,4 @@
-|Travis|_ |AppVeyor|_ |Codecov|_ |CircleCI|_ |Python36|_ |PyPi|_ |DOI|_
+|Travis|_ |AppVeyor|_ |Codecov|_ |CircleCI|_ |Python36|_ |PyPi|_ |PyUp|_ |DOI|_
 
 .. |Travis| image:: https://api.travis-ci.org/classtag/scikit-ctr.svg?branch=master
 .. _Travis: https://travis-ci.org/classtag/scikit-ctr
@@ -17,6 +17,9 @@
 
 .. |PyPi| image:: https://badge.fury.io/py/scikit-ctr.svg
 .. _PyPi: https://badge.fury.io/py/scikit-ctr
+
+.. |PyUp| image:: https://pyup.io/repos/github/classtag/scikit-ctr/shield.svg
+.. _PyUp   https://pyup.io/repos/github/classtag/scikit-ctr/
 
 .. |DOI| image:: https://zenodo.org/badge/21369/classtag/scikit-ctr.svg
 .. _DOI: https://zenodo.org/badge/latestdoi/21369/classtag/scikit-ctr
