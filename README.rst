@@ -1,4 +1,4 @@
-|Travis|_ |AppVeyor|_ |Codecov|_ |CircleCI|_
+|Travis|_ |AppVeyor|_ |CircleCI|_|Codecov|_ 
 
 |Python36|_ |PyPi|_ |PyUp|_ |DOI|_
 
