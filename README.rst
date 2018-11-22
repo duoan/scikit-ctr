@@ -20,7 +20,7 @@
 .. |Python36| image:: https://img.shields.io/badge/python-3.6-blue.svg
 .. _Python36: https://badge.fury.io/py/scikit-ctr
 
-.. |PyPi| image:: https://img.shields.io/pypi/pyversions/light-text-classification.svg
+.. |PyPi| image:: https://img.shields.io/pypi/v/light-text-classification.svg
 .. _PyPi: https://badge.fury.io/py/scikit-ctr
 
 .. |PyUp| image:: https://pyup.io/repos/github/classtag/scikit-ctr/shield.svg
