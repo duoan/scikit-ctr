@@ -1,6 +1,6 @@
-|Travis|_ |AppVeyor|_ |CircleCI|_ |Codecov|_ 
+|Travis|_ |AppVeyor|_ |CircleCI|_ |Codecov|_ |Python36|_ |PyPi|_ |PyUp|_ 
 
-|Python36|_ |PyPi|_ |PyUp|_ |DOI|_
+|DOI|_
 
 .. |Travis| image:: https://api.travis-ci.org/classtag/scikit-ctr.svg?branch=master
 .. _Travis: https://travis-ci.org/classtag/scikit-ctr
