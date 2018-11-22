@@ -1,6 +1,9 @@
-|Travis|_ |AppVeyor|_ |CircleCI|_ |Codecov|_ |Python36|_ |PyPi|_ |PyUp|_ 
+|Travis|_ |AppVeyor|_ |CircleCI|_ |Codecov|_ |Python36|_ |PyPi|_ |PyUp|_ |readthedocs|_
 
 |DOI|_
+
+.. |readthedocs| image:: https://readthedocs.org/projects/light-text-classification/badge/?style=flat
+.. _readthedocs: https://readthedocs.org/projects/light-text-classification
 
 .. |Travis| image:: https://api.travis-ci.org/classtag/scikit-ctr.svg?branch=master
 .. _Travis: https://travis-ci.org/classtag/scikit-ctr
