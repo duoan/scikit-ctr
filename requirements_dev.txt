@@ -14,4 +14,4 @@ codecov>=2.0.15
 pytest-cov==2.12.1
 
 
-scikit-learn==0.20.1
+scikit-learn==1.0
